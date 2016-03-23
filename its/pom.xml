@@ -43,13 +43,13 @@
                   <artifactItems>
                     <artifactItem>
                       <groupId>${project.groupId}</groupId>
-                      <artifactId>sonar-XXXX-plugin</artifactId>
+                      <artifactId>sonar-python-plugin</artifactId>
                       <version>${project.version}</version>
                       <type>sonar-plugin</type>
                       <overWrite>true</overWrite>
                     </artifactItem>
                   </artifactItems>
-                  <outputDirectory>../../sonar-XXXX-plugin/target</outputDirectory>
+                  <outputDirectory>../../sonar-python-plugin/target</outputDirectory>
                   <overWriteReleases>true</overWriteReleases>
                   <overWriteSnapshots>true</overWriteSnapshots>
                 </configuration>
